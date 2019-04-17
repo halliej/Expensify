@@ -26,10 +26,10 @@
     "validator": "^8.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "server": "live-server public/",
     "build": "webpack",
-    "dev-server": "webpack-dev-server"
+    "dev-server": "webpack-dev-server",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
@@ -43,6 +43,7 @@
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.12.4",
+    "jest": "^20.0.4",
     "live-server": "^1.2.1",
     "webpack": "^3.1.0",
     "webpack-dev-server": "^2.5.1"
